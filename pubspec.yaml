@@ -1,0 +1,20 @@
+name: firebase_remote_config_hybrid_platform_interface
+description: A platform interface for the firebase_remote_config_hybrid plugin.
+homepage: https://github.com/JohnMusleh/firebase_remote_config_hybrid
+# NOTE: We strongly prefer non-breaking changes, even at the expense of a
+# less-clean API. See https://flutter.dev/go/platform-interface-breaking-changes
+version: 0.0.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_remote_config: ^0.10.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^4.1.1
+
+environment:
+  sdk: ">=2.0.0-dev.28.0 <3.0.0"
+  flutter: ">=1.9.1+hotfix.5 <2.0.0"
